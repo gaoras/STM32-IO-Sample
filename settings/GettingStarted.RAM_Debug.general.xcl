@@ -1,8 +1,8 @@
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armjlink2.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armstlink2.dll" 
 
-"D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\GettingStarted\RAM Debug\Exe\GettingStarted.out" 
+"D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\ioSample\RAM Debug\Exe\GettingStarted.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
 

@@ -23,8 +23,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
 
-extern void Timer1IntrHandler (void);
-
 /** @addtogroup Template_Project
   * @{
   */
@@ -135,20 +133,9 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
+ TimingDelay_Decrement();
 }
 
-/*******************************************************************************
-* Function Name  : TIM1_UP_IRQHandler
-* Description    : This function handles TIM1 overflow and update interrupt
-*                  request.
-* Input          : None
-* Output         : None
-* Return         : None
-*******************************************************************************/
-void TIM1_UP_IRQHandler(void)
-{
-  Timer1IntrHandler();
-}
 
 /******************************************************************************/
 /*                 STM32F10x Peripherals Interrupt Handlers                   */

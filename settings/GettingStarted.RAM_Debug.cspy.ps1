@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\GettingStarted\settings\GettingStarted.RAM_Debug.general.xcl" --backend -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\GettingStarted\settings\GettingStarted.RAM_Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\ioSample\settings\GettingStarted.RAM_Debug.general.xcl" --backend -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\ioSample\settings\GettingStarted.RAM_Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\GettingStarted\settings\GettingStarted.RAM_Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\GettingStarted\settings\GettingStarted.RAM_Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\ioSample\settings\GettingStarted.RAM_Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Users\YU\Documents\IAR Embedded Workbench\arm\8.50.9\ST\STM32F1xx\IAR-STM32-SK\ioSample\settings\GettingStarted.RAM_Debug.driver.xcl" 
 }
